@@ -1,0 +1,13 @@
+.footer-container{  
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+li{
+    list-style:none;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
