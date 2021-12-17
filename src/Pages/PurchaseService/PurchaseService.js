@@ -37,6 +37,23 @@ const PurchaseService = () => {
 
 
 
+        const url = 'http://localhost:5000/orders';
+
+        fetch(url, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(newOrder),
+        })
+            .then(response => response.json())
+            .then(data => {
+                console.log('Success:', data);
+
+            })
+            .catch((error) => {
+                console.error('Error:', error);
+            });
 
         reset();
 

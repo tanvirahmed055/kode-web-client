@@ -26,6 +26,14 @@ const Dashboard = () => {
                                 <h2 className="fs-3 fw-bolder fst-italic text-white pt-5"><i className="fas fa-chart-line"></i>&nbsp;Dashboard</h2>
                             </Link>
                             <ul className="text-center text-white pt-4 mt-4 pe-5">
+
+                                {
+                                    (role === 'admin') && <li className="pb-4">
+                                        <Link to="/dashboard/makeAdmin" className="text-center text-white fw-bolder ">Make Admin</Link>
+                                    </li>
+                                }
+
+
                                 {
                                     (role === 'admin') && <li className="pb-4">
                                         <Link to="/dashboard/manageAllOrders" className="text-center text-white fw-bolder ">Manage All Orders</Link>
@@ -35,21 +43,16 @@ const Dashboard = () => {
 
                                 {
                                     (role === 'admin') && <li className="pb-4">
+                                        <Link to="/dashboard/manageServices" className="text-center text-white fw-bolder ">Manage Services</Link>
+                                    </li>
+                                }
+
+                                {
+                                    (role === 'admin') && <li className="pb-4">
                                         <Link to="/dashboard/addAService" className="text-center text-white fw-bolder ">Add A Service</Link>
                                     </li>
                                 }
 
-                                {
-                                    (role === 'admin') && <li className="pb-4">
-                                        <Link to="/dashboard/makeAdmin" className="text-center text-white fw-bolder ">Make Admin</Link>
-                                    </li>
-                                }
-
-                                {
-                                    (role === 'admin') && <li className="pb-4">
-                                        <Link to="/dashboard/manageServices" className="text-center text-white fw-bolder ">Manage Services</Link>
-                                    </li>
-                                }
 
                                 {
                                     (role !== 'admin') && <li className="pb-4">
@@ -60,7 +63,7 @@ const Dashboard = () => {
 
                                 {
                                     (role !== 'admin') && <li className="pb-4">
-                                        <Link to="/dashboard/review" className="text-center text-white fw-bolder ">Review</Link>
+                                        <Link to="/dashboard/review" className="text-center text-white fw-bolder ">Add A Review</Link>
                                     </li>
                                 }
 
