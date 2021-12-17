@@ -44,7 +44,7 @@ const Register = () => {
                     // ...
                 });
 
-
+                savedUser(data.name, data.email)
                 reset();
                 navigate('/login')
 
@@ -61,7 +61,26 @@ const Register = () => {
     }
 
 
+    const savedUser = (name, email) => {
+        const user = { name, email, role: 'user' };
+        //console.log(user);
+        const url = 'http://localhost:5000/users';
 
+        fetch(url, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(user),
+        })
+            .then(response => response.json())
+            .then(data => {
+                console.log('Success:', data);
+            })
+            .catch((error) => {
+                console.error('Error:', error);
+            });
+    }
 
 
 
