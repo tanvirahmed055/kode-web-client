@@ -1,18 +1,17 @@
-.order-form-container {
+.login-form-container {
     /* background: #0e101c; */
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
       "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
       sans-serif;   
-      background-color: #0093E9;
-      background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+      background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   }
   
-  .order-form-container form {
+  .login-form-container form {
     max-width: 500px;
     margin: 0 auto;
   }
   
-  .order-form-container h1 {
+  .login-form-container h1 {
     font-weight: 100;
     color: white;
     text-align: center;
@@ -20,7 +19,7 @@
     border-bottom: 1px solid rgb(79, 98, 148);
   }
   
-  .order-form-container .form {
+  .login-form-container .form {
     background: #0e101c;
     max-width: 400px;
     margin: 0 auto;
@@ -30,12 +29,12 @@
     color: #bf1650;
   }
   
-  .order-form-container p::before {
+  .login-form-container p::before {
     display: inline;
     content: "⚠ ";
   }
   
-  .order-form-container input {
+  .login-form-container input {
     display: block;
     box-sizing: border-box;
     width: 100%;
@@ -46,7 +45,7 @@
     font-size: 14px;
   }
   
-  .order-form-container label {
+  .login-form-container label {
     line-height: 2;
     text-align: left;
     display: block;
@@ -57,9 +56,9 @@
     font-weight: 200;
   }
   
-  .order-form-container button[type="submit"],
+  .login-form-container button[type="submit"],
   input[type="submit"] {
-    background: #ec5990;
+    background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
     color: white;
     text-transform: uppercase;
     border: none;
@@ -70,12 +69,12 @@
     letter-spacing: 10px;
   }
   
-  .order-form-container button[type="submit"]:hover,
+  .login-form-container button[type="submit"]:hover,
   input[type="submit"]:hover {
-    background: #bf1650;
+    background-image: linear-gradient(-225deg, #7742B2 0%, #F180FF 52%, #FD8BD9 100%);
   }
   
-  .order-form-container button[type="submit"]:active,
+  .login-form-container button[type="submit"]:active,
   input[type="button"]:active,
   input[type="submit"]:active {
     transition: 0.3s all;
@@ -84,22 +83,22 @@
     opacity: 0.8;
   }
   
-  .order-form-container input:disabled {
+  .login-form-container input:disabled {
     opacity: 0.4;
   }
   
-  .order-form-container input[type="button"]:hover {
+  .login-form-container input[type="button"]:hover {
     transition: 0.3s all;
   }
   
-  .order-form-container button[type="submit"],
+  .login-form-container button[type="submit"],
   input[type="button"],
   input[type="submit"] {
     -webkit-appearance: none;
   }
 
   
-  .order-form-container button[type="button"] {
+  .login-form-container button[type="button"] {
     display: block;
     appearance: none;
     background: #333;
@@ -110,15 +109,15 @@
     border-radius: 4px;
   }
   
-  .order-form-container pre {
+  .login-form-container pre {
     color: white;
   }
   
-  .order-form-container hr {
+  .login-form-container hr {
     margin-top: 30px;
   }
   
-  .order-form-container button {
+  .login-form-container button {
     display: block;
     appearance: none;
     margin-top: 40px;

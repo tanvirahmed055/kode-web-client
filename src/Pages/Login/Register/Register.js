@@ -68,7 +68,7 @@ const Register = () => {
         <Container fluid >
             <Row>
                 <Col sm={12} >
-                    <Container className="order-form-container py-3  my-5 ">
+                    <Container className="login-form-container py-3  my-5 ">
                         <form onSubmit={handleSubmit(onSubmit)}>
                             <h1 className="fw-bold">Sign Up</h1>
 

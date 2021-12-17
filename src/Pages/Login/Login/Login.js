@@ -44,7 +44,7 @@ const Login = () => {
         <Container fluid >
             <Row>
                 <Col sm={12} >
-                    <Container className="order-form-container py-5  mt-5 ">
+                    <Container className="login-form-container py-5  mt-5 ">
                         <form onSubmit={handleSubmit(onSubmit)}>
                             <h1 className="fw-bold">Login</h1>
                             <label htmlFor="email">Email</label>
