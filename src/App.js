@@ -5,6 +5,8 @@ import PurchaseService from './Pages/PurchaseService/PurchaseService';
 import Login from './Pages/Login/Login/Login';
 import Register from './Pages/Login/Register/Register';
 import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
+import Dashboard from './Pages/Dashboard/Dashboard/Dashboard';
+import DashboardHome from './Pages/Dashboard/DashboardHome/DashboardHome';
 
 
 function App() {
@@ -23,6 +25,16 @@ function App() {
 
           } >
           </Route>
+
+          <Route path="/dashboard" element={
+            <PrivateRoute>
+              <Dashboard />
+            </PrivateRoute>
+          } >
+            <Route path="/dashboard" element={<DashboardHome />} />
+
+          </Route>
+
         </Routes>
       </BrowserRouter>
     </div >
