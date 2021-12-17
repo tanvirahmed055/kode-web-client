@@ -12,7 +12,7 @@ const Services = () => {
             </h5>
             <Row xs={1} md={3} className="g-4">
                 <Col >
-                    <Card className="text-center  shadow-lg p-1 mb-5 bg-body rounded card">
+                    <Card className="text-center  shadow-lg p-1 mb-5 bg-body rounded card service-card">
                         <div className="icon-color pt-3 text-start">
                             <Image src="https://img.icons8.com/dotty/80/000000/erp-system.png" fluid />
                         </div>
@@ -25,7 +25,7 @@ const Services = () => {
                     </Card>
                 </Col>
                 <Col >
-                    <Card className="text-center  shadow-lg p-1 mb-5 bg-body rounded card">
+                    <Card className="text-center  shadow-lg p-1 mb-5 bg-body rounded card service-card">
                         <div className="icon-color pt-3 text-start">
                             <Image src="https://img.icons8.com/ios-filled/80/000000/e.png" fluid />
                         </div>
@@ -39,7 +39,7 @@ const Services = () => {
                     </Card>
                 </Col>
                 <Col >
-                    <Card className="text-center  shadow-lg p-1 mb-5 bg-body rounded card">
+                    <Card className="text-center  shadow-lg p-1 mb-5 bg-body rounded card service-card">
                         <div className="icon-color pt-3 text-start">
                             <Image src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/80/000000/external-pencil-creative-kiranshastry-lineal-kiranshastry.png" fluid />
                         </div>
@@ -53,7 +53,7 @@ const Services = () => {
                     </Card>
                 </Col>
                 <Col >
-                    <Card className="text-center  shadow-lg p-1 mb-5 bg-body rounded card">
+                    <Card className="text-center  shadow-lg p-1 mb-5 bg-body rounded card service-card">
                         <div className="icon-color pt-3 text-start">
                             <Image src="https://img.icons8.com/external-wanicon-lineal-wanicon/80/000000/external-world-user-interface-wanicon-lineal-wanicon.png" fluid />
                         </div>
@@ -67,7 +67,7 @@ const Services = () => {
                     </Card>
                 </Col>
                 <Col >
-                    <Card className="text-center  shadow-lg p-1 mb-5 bg-body rounded card">
+                    <Card className="text-center  shadow-lg p-1 mb-5 bg-body rounded card service-card">
                         <div className="icon-color pt-3 text-start">
                             <Image src="https://img.icons8.com/external-dreamstale-lineal-dreamstale/80/000000/external-mobile-phone-technology-dreamstale-lineal-dreamstale-2.png" fluid />
                         </div>
@@ -81,7 +81,7 @@ const Services = () => {
                     </Card>
                 </Col>
                 <Col >
-                    <Card className="text-center  shadow-lg p-1 mb-5 bg-body rounded card">
+                    <Card className="text-center  shadow-lg p-1 mb-5 bg-body rounded card service-card ">
                         <div className="icon-color pt-3 text-start">
                             <Image src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/80/000000/external-digital-marketing-digital-marketing-flatart-icons-outline-flatarticons.png" fluid />
                         </div>
