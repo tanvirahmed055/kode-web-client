@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import PurchaseService from './Pages/PurchaseService/PurchaseService';
 import Login from './Pages/Login/Login/Login';
 import Register from './Pages/Login/Register/Register';
+import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
 
 
 function App() {
@@ -16,7 +17,10 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/purchaseService/:id" element={
-            <PurchaseService />
+            <PrivateRoute>
+              <PurchaseService />
+            </PrivateRoute>
+
           } >
           </Route>
         </Routes>

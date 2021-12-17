@@ -7,12 +7,14 @@ import { useForm } from "react-hook-form";
 import Image from 'react-bootstrap/Image';
 import Header from '../Shared/Header/Header';
 import Footer from '../Shared/Footer/Footer';
+import { useSelector } from "react-redux";
+import './PurchaseService.css';
 
 const PurchaseService = () => {
 
     const { id } = useParams();
 
-
+    const user = useSelector((state) => state?.user?.value);
 
     const [service, setService] = useState({});
 
@@ -62,7 +64,38 @@ const PurchaseService = () => {
                         <h5>Service Price: &nbsp;${service?.servicePrice}</h5>
                     </Col>
                     <Col sm={5}>
+                        <Container className="order-form-container p-3">
+                            <form onSubmit={handleSubmit(onSubmit)}>
+                                <h1>Service Order Form</h1>
+                                <label htmlFor="username">Your Name</label>
+                                <input defaultValue={user?.displayName} {...register("username")} />
 
+                                <label htmlFor="email">Email</label>
+                                <input
+                                    defaultValue={user?.email}
+                                    type="text"
+                                    {...register("email")}
+                                />
+
+                                <label htmlFor="address">Address</label>
+                                <input placeholder="address" {...register("address")} />
+
+
+                                <label htmlFor="phonenumber">Phone Number</label>
+                                <input placeholder="+880" {...register("phonenumber")} />
+
+
+                                <label htmlFor="city">City</label>
+                                <input placeholder="city" {...register("city")} />
+
+
+                                <div style={{ color: "red" }}>
+                                    {Object.keys(errors).length > 0 &&
+                                        "There are errors, check your console."}
+                                </div>
+                                <input type="submit" />
+                            </form>
+                        </Container>
                     </Col>
                 </Row>
             </Container>
