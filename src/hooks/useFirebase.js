@@ -10,11 +10,12 @@ initializeAuthentication();
 
 const useFirebase = () => {
 
-    const [userInfo, setUserInfo] = useState(null);
 
     const [loading, setLoading] = useState(true);
 
+    const [userLoading, setUserLoading] = useState(true);
 
+    const [role, setRole] = useState('');
 
 
     const auth = getAuth();
@@ -50,7 +51,17 @@ const useFirebase = () => {
 
                 dispatch(login(user));
 
+                const url = `http://localhost:5000/user?email=${user?.email}`
 
+                fetch(url)
+                    .then(res => res.json())
+                    .then(data => {
+                        setRole(data?.role)
+                        //console.log('checking role', data?.role);
+                        //console.log('printing role', role);
+                        setUserLoading(false);
+
+                    })
 
 
 
@@ -59,7 +70,7 @@ const useFirebase = () => {
                 // ...
                 // setUserInfo({});
                 dispatch(logout());
-
+                setRole('');
 
             }
             setLoading(false);
@@ -82,13 +93,13 @@ const useFirebase = () => {
     return {
         handleRegistration,
         handleLogin,
-        userInfo,
-        setUserInfo,
         handleLogOut,
         updateProfile,
         auth,
         loading,
-        setLoading
+        setLoading,
+        userLoading,
+        role
     };
 
 };
