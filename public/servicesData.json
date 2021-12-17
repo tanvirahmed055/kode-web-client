@@ -1,0 +1,50 @@
+[
+    {
+        "id": 0,
+        "serviceName": "ERP Software Development",
+        "serviceImg": "https://img.icons8.com/dotty/80/000000/erp-system.png",
+        "shortDescription": "We provide ERP software development service for small to large companies. This will help to manage accounts, inventory, purchase, sales etc.",
+        "detailDescription": "We provide ERP software development service for small to large companies. This will help to manage accounts, inventory, purchase, sales etc.",
+        "servicePrice": 1342
+    },
+    {
+        "id": 1,
+        "serviceName": "E-Commerce Development",
+        "serviceImg": "https://img.icons8.com/ios-filled/80/000000/e.png",
+        "shortDescription": "We offer E-Commerce Website development service with awesome user interfaces and user experiences for your online businesses.",
+        "detailDescription": "We offer E-Commerce Website development service with awesome user interfaces and user experiences for your online businesses.",
+        "servicePrice": 1200
+    },
+    {
+        "id": 2,
+        "serviceName": "Customized Software Development",
+        "serviceImg": "https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/80/000000/external-pencil-creative-kiranshastry-lineal-kiranshastry.png",
+        "shortDescription": "We offer Customized Software which is specifically tailored to meet your business needs with your desired features.",
+        "detailDescription": "We offer Customized Software which is specifically tailored to meet your business needs with your desired features.",
+        "servicePrice": 980
+    },
+    {
+        "id": 3,
+        "serviceName": "Website Design & Development",
+        "serviceImg": "https://img.icons8.com/external-wanicon-lineal-wanicon/80/000000/external-world-user-interface-wanicon-lineal-wanicon.png",
+        "shortDescription": "We provide Premium Website Design and Development service with awesome UI designs to attract website visitors.",
+        "detailDescription": "We provide Premium Website Design and Development service with awesome UI designs to attract website visitors.",
+        "servicePrice": 1376
+    },
+    {
+        "id": 4,
+        "serviceName": "Mobile App Development",
+        "serviceImg": "https://img.icons8.com/external-dreamstale-lineal-dreamstale/80/000000/external-mobile-phone-technology-dreamstale-lineal-dreamstale-2.png",
+        "shortDescription": "We offer cross-platform native Mobile Apps Development service to give awesome user experience on mobile devices.",
+        "detailDescription": "We offer cross-platform native Mobile Apps Development service to give awesome user experience on mobile devices.",
+        "servicePrice": 1409
+    },
+    {
+        "id": 5,
+        "serviceName": "Digital Marketing",
+        "serviceImg": "https://img.icons8.com/external-flatart-icons-outline-flatarticons/80/000000/external-digital-marketing-digital-marketing-flatart-icons-outline-flatarticons.png",
+        "shortDescription": "To get your desired customers and produce more attention fo your products, we offer digital marketing services with unique techniques.",
+        "detailDescription": "To get your desired customers and produce more attention fo your products, we offer digital marketing services with unique techniques.",
+        "servicePrice": 789
+    }
+]
