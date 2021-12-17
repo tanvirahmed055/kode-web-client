@@ -5,13 +5,13 @@ import {
 } from "react-router-dom";
 
 const Service = (props) => {
-    const { id, serviceName, serviceImg, shortDescription, servicePrice } = props.service;
+    const { _id, serviceName, serviceImg, shortDescription, servicePrice } = props.service;
 
     let navigate = useNavigate();
 
     return (
         <Col>
-            <Card className="text-center  shadow-lg p-1 mb-5 bg-body rounded card service-card" onClick={() => navigate(`/service/${id}`)}>
+            <Card className="text-center  shadow-lg p-1 mb-5 bg-body rounded card service-card" onClick={() => navigate(`/purchaseService/${_id}`)}>
                 <div className="icon-color pt-3 text-start">
                     <Image src={serviceImg} fluid />
                 </div>

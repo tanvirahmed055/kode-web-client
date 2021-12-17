@@ -28,7 +28,7 @@ const Services = () => {
             <Row xs={1} md={3} className="g-4">
                 {
                     loading ? <Spinner animation="grow" className="mx-auto" /> :
-                        services?.map(service => <Service key={service.id} service={service}></Service>)
+                        services?.map(service => <Service key={service._id} service={service}></Service>)
                 }
 
             </Row>
