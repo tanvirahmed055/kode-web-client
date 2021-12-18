@@ -25,6 +25,24 @@ const MyOrders = () => {
     }, [orders])
 
 
+    const handleDelete = id => {
+        //console.log(id);
+
+        const confirmation = window.confirm("Are you sure you want to delete your order?");
+
+        if (confirmation) {
+            fetch(`http://localhost:5000/deleteOrder/${id}`, {
+                method: 'DELETE',
+            })
+                .then(response => response.json())
+                .then(data => {
+                    //console.log('Success:', data);
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+        }
+    }
 
 
 
@@ -62,7 +80,7 @@ const MyOrders = () => {
                                                     <td>{order?.email}</td>
 
                                                     <td>{order?.status}</td>
-                                                    <td>  <Button variant="danger"  >Delete</Button>
+                                                    <td>  <Button variant="danger" onClick={() => handleDelete(order?._id)} >Delete</Button>
                                                     </td>
 
 
