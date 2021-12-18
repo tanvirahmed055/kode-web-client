@@ -14,6 +14,7 @@ import AdminRoute from './Pages/Login/AdminRoute/AdminRoute';
 import ManageAllOrders from './Pages/Dashboard/ManageAllOrders/ManageAllOrders';
 import ManageServices from './Pages/Dashboard/ManageServices/ManageServices';
 import AddAService from './Pages/Dashboard/AddAService/AddAService';
+import About from './Pages/Home/About/About';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
+          <Route path="/about" element={<About />} />
           <Route path="/purchaseService/:id" element={
             <PrivateRoute>
               <PurchaseService />
