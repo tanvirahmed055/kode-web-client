@@ -8,6 +8,7 @@ import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
 import Dashboard from './Pages/Dashboard/Dashboard/Dashboard';
 import DashboardHome from './Pages/Dashboard/DashboardHome/DashboardHome';
 import MyOrders from './Pages/Dashboard/MyOrders/MyOrders';
+import AddAReview from './Pages/Dashboard/AddAReview/AddAReview';
 
 
 function App() {
@@ -36,7 +37,7 @@ function App() {
 
             <Route path="myOrders" element={<MyOrders />} />
 
-
+            <Route path="addAReview" element={<AddAReview />} />
 
           </Route>
 
