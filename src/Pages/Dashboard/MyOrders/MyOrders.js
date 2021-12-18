@@ -14,7 +14,7 @@ const MyOrders = () => {
     const userEmail = user?.email;
 
     useEffect(() => {
-        const url = `http://localhost:5000/orders?email=${userEmail}`
+        const url = `https://sheltered-sea-63278.herokuapp.com/orders?email=${userEmail}`
         fetch(url)
             .then(res => res.json())
             .then(data => {
@@ -31,7 +31,7 @@ const MyOrders = () => {
         const confirmation = window.confirm("Are you sure you want to delete your order?");
 
         if (confirmation) {
-            fetch(`http://localhost:5000/deleteOrder/${id}`, {
+            fetch(`https://sheltered-sea-63278.herokuapp.com/deleteOrder/${id}`, {
                 method: 'DELETE',
             })
                 .then(response => response.json())

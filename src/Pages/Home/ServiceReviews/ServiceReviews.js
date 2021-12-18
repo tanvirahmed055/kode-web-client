@@ -15,7 +15,7 @@ const ServiceReviews = () => {
     useEffect(() => {
         const abortController = new AbortController();
         const signal = abortController.signal;
-        const url = 'http://localhost:5000/reviews';
+        const url = 'https://sheltered-sea-63278.herokuapp.com/reviews';
         fetch(url, { signal: signal })
             .then(res => res.json())
             .then(data => {

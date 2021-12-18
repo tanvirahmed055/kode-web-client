@@ -17,7 +17,7 @@ const MakeAdmin = () => {
 
         //console.log(inputEmail);
 
-        const url = 'http://localhost:5000/makeAdmin';
+        const url = 'https://sheltered-sea-63278.herokuapp.com/makeAdmin';
 
         fetch(url, {
             method: 'PUT',

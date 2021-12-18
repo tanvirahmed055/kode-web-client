@@ -11,7 +11,7 @@ const ManageServices = () => {
 
 
     useEffect(() => {
-        const url = `http://localhost:5000/services`
+        const url = `https://sheltered-sea-63278.herokuapp.com/services`
         fetch(url)
             .then(res => res.json())
             .then(data => {
@@ -26,7 +26,7 @@ const ManageServices = () => {
         const confirmation = window.confirm("Are you sure you want to delete this product?");
 
         if (confirmation) {
-            fetch(`http://localhost:5000/deleteService/${id}`, {
+            fetch(`https://sheltered-sea-63278.herokuapp.com/deleteService/${id}`, {
                 method: 'DELETE',
             })
                 .then(response => response.json())

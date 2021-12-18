@@ -11,7 +11,7 @@ const Services = () => {
 
 
     useEffect(() => {
-        const url = 'http://localhost:5000/services';
+        const url = 'https://sheltered-sea-63278.herokuapp.com/services';
         fetch(url)
             .then(res => res.json())
             .then(data => {

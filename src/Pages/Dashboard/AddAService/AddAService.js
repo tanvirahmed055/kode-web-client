@@ -19,7 +19,7 @@ const AddAService = () => {
 
         console.log(newService);
 
-        const url = 'http://localhost:5000/addService';
+        const url = 'https://sheltered-sea-63278.herokuapp.com/addService';
 
         fetch(url, {
             method: 'POST',

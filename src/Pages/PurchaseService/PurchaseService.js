@@ -37,7 +37,7 @@ const PurchaseService = () => {
 
 
 
-        const url = 'http://localhost:5000/orders';
+        const url = 'https://sheltered-sea-63278.herokuapp.com/orders';
 
         fetch(url, {
             method: 'POST',
@@ -62,7 +62,7 @@ const PurchaseService = () => {
 
 
     useEffect(() => {
-        const url = `http://localhost:5000/service?id=${id}`
+        const url = `https://sheltered-sea-63278.herokuapp.com/service?id=${id}`
         fetch(url)
             .then(res => res.json())
             .then(data => setService(data))

@@ -20,7 +20,7 @@ const AddAReview = () => {
 
         //console.log(newReview);
 
-        const url = 'http://localhost:5000/addReview';
+        const url = 'https://sheltered-sea-63278.herokuapp.com/addReview';
 
         fetch(url, {
             method: 'POST',
