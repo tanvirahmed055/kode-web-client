@@ -35,10 +35,24 @@
         "servicePrice": 1409
     },
     {
-        "serviceName": "Digital Marketing",
-        "serviceImg": "https://img.icons8.com/external-flatart-icons-outline-flatarticons/80/000000/external-digital-marketing-digital-marketing-flatart-icons-outline-flatarticons.png",
-        "shortDescription": "To get your desired customers and produce more attention fo your products, we offer digital marketing services with unique techniques.",
-        "detailDescription": "To get your desired customers and produce more attention fo your products, we offer digital marketing services with unique techniques.",
-        "servicePrice": 789
+        "reviewerImg": "https://i.ibb.co/Z6XBfjw/review2.jpg",
+        "reviewerName": "Mark Tory",
+        "reviewerOccupation": "Engineer",
+        "description": "Best ever. It was for my company and we were delivered with our desired features for our customized software. ",
+        "rating": 4
+    },
+    {
+        "reviewerImg": "https://i.ibb.co/Z6XBfjw/review2.jpg",
+        "reviewerName": "Harry Marcus",
+        "reviewerOccupation": "Teacher",
+        "description": "I must say! I haven't stopped ordering their service of digital marketing for my online store after my store boomed!",
+        "rating": 5
+    },
+    {
+        "reviewerImg": "https://i.ibb.co/cFr4v50/review1.jpg",
+        "reviewerName": "Ron Smith",
+        "reviewerOccupation": "Entrepreneur",
+        "description": "Really enjoying my first website, I would recommend this to everyone, easy to communicate with the seller.",
+        "rating": 5
     }
 ]

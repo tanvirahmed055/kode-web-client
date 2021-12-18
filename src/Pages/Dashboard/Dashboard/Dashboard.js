@@ -63,7 +63,7 @@ const Dashboard = () => {
 
                                 {
                                     (role !== 'admin') && <li className="pb-4">
-                                        <Link to="/dashboard/review" className="text-center text-white fw-bolder ">Add A Review</Link>
+                                        <Link to="/dashboard/addAReview" className="text-center text-white fw-bolder ">Add A Review</Link>
                                     </li>
                                 }
 
