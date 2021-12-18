@@ -1,6 +1,6 @@
 import React from 'react';
-import Footer from '../../Shared/Footer/Footer';
-import Header from '../../Shared/Header/Header';
+import Footer from '../Shared/Footer/Footer';
+import Header from '../Shared/Header/Header';
 
 const About = () => {
     return (
