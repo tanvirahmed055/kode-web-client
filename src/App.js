@@ -9,6 +9,8 @@ import Dashboard from './Pages/Dashboard/Dashboard/Dashboard';
 import DashboardHome from './Pages/Dashboard/DashboardHome/DashboardHome';
 import MyOrders from './Pages/Dashboard/MyOrders/MyOrders';
 import AddAReview from './Pages/Dashboard/AddAReview/AddAReview';
+import MakeAdmin from './Pages/Dashboard/MakeAdmin/MakeAdmin';
+import AdminRoute from './Pages/Login/AdminRoute/AdminRoute';
 
 
 function App() {
@@ -38,6 +40,12 @@ function App() {
             <Route path="myOrders" element={<MyOrders />} />
 
             <Route path="addAReview" element={<AddAReview />} />
+
+            <Route path="makeAdmin" element={
+              <AdminRoute>
+                <MakeAdmin />
+              </AdminRoute>
+            } />
 
           </Route>
 
