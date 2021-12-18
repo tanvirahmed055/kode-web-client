@@ -13,6 +13,7 @@ import MakeAdmin from './Pages/Dashboard/MakeAdmin/MakeAdmin';
 import AdminRoute from './Pages/Login/AdminRoute/AdminRoute';
 import ManageAllOrders from './Pages/Dashboard/ManageAllOrders/ManageAllOrders';
 import ManageServices from './Pages/Dashboard/ManageServices/ManageServices';
+import AddAService from './Pages/Dashboard/AddAService/AddAService';
 
 
 function App() {
@@ -60,6 +61,8 @@ function App() {
                 <ManageServices />
               </AdminRoute>
             } />
+
+            <Route path="addAService" element={<AddAService />} />
 
           </Route>
 
