@@ -17,6 +17,7 @@ import AddAService from './Pages/Dashboard/AddAService/AddAService';
 
 import Team from './Pages/Team/Team';
 import About from './Pages/About/About';
+import Contact from './Pages/Contact/Contact/Contact';
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
           <Route path="/register" element={<Register />} />
           <Route path="/about" element={<About />} />
           <Route path="/team" element={<Team />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="/purchaseService/:id" element={
             <PrivateRoute>
               <PurchaseService />
