@@ -7,6 +7,7 @@ import Register from './Pages/Login/Register/Register';
 import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
 import Dashboard from './Pages/Dashboard/Dashboard/Dashboard';
 import DashboardHome from './Pages/Dashboard/DashboardHome/DashboardHome';
+import MyOrders from './Pages/Dashboard/MyOrders/MyOrders';
 
 
 function App() {
@@ -32,6 +33,9 @@ function App() {
             </PrivateRoute>
           } >
             <Route path="/dashboard" element={<DashboardHome />} />
+
+            <Route path="myOrders" element={<MyOrders />} />
+
 
           </Route>
 
