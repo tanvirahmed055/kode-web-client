@@ -12,6 +12,7 @@ import AddAReview from './Pages/Dashboard/AddAReview/AddAReview';
 import MakeAdmin from './Pages/Dashboard/MakeAdmin/MakeAdmin';
 import AdminRoute from './Pages/Login/AdminRoute/AdminRoute';
 import ManageAllOrders from './Pages/Dashboard/ManageAllOrders/ManageAllOrders';
+import ManageServices from './Pages/Dashboard/ManageServices/ManageServices';
 
 
 function App() {
@@ -51,6 +52,12 @@ function App() {
             <Route path="manageAllOrders" element={
               <AdminRoute>
                 <ManageAllOrders />
+              </AdminRoute>
+            } />
+
+            <Route path="manageServices" element={
+              <AdminRoute>
+                <ManageServices />
               </AdminRoute>
             } />
 
