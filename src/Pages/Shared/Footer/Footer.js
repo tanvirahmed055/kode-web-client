@@ -35,15 +35,15 @@ const Footer = () => {
                     <Col sm={4}>
                         <ul className="d-flex pt-3">
 
-                            <HashLink className="me-2 nav-link pb-3 text-dark" style={{ color: 'white' }} to="/home#products"><i className="fas fa-check"></i>&nbsp;Home</HashLink>
+                            <HashLink className="me-2 nav-link pb-3 text-dark" style={{ color: 'white' }} to="/home"><i className="fas fa-check"></i>&nbsp;Home</HashLink>
 
-                            <HashLink className="me-2 nav-link pb-3 text-dark" style={{ color: 'white' }} to="/home#features"><i className="fas fa-check"></i>&nbsp;Services</HashLink>
+                            <HashLink className="me-2 nav-link pb-3 text-dark" style={{ color: 'white' }} to="/home#services"><i className="fas fa-check"></i>&nbsp;Services</HashLink>
 
-                            <HashLink className="me-2 nav-link pb-3 text-dark" style={{ color: 'white' }} to="/home#reviews"><i className="fas fa-check"></i>&nbsp;About</HashLink>
+                            <HashLink className="me-2 nav-link pb-3 text-dark" style={{ color: 'white' }} to="/home#technology"><i className="fas fa-check"></i>&nbsp;Technology</HashLink>
 
 
 
-                            <HashLink className="me-2 nav-link pb-3 text-dark" style={{ color: 'white' }} to="/home#gallery"><i className="fas fa-check"></i>&nbsp;Contact</HashLink>
+                            <HashLink className="me-2 nav-link pb-3 text-dark" style={{ color: 'white' }} to="/home#reviews"><i className="fas fa-check"></i>&nbsp; Reviews</HashLink>
                         </ul>
                         <div className="ps-5 ms-5">
                             <Image src="https://img.icons8.com/ios/50/000000/facebook-new.png" fluid />

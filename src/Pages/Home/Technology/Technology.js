@@ -8,7 +8,7 @@ const Technology = () => {
     return (
         <>
 
-            <div className="container-fluid mt-2 mb-5 pt-5" id="features">
+            <div className="container-fluid mt-2 mb-5 pt-5" id="technology">
                 <h1 className="fw-bolder mb-3 text-primary">We love technology </h1>
                 <p className="text-start pb-3 pt-3 text-secondary ps-5 pe-5">We love to work building software along with the new challenges that come on the way. We are always in our innovative mode which ever project we do - we are always driven by passion, creativity and innovation. Our expert skills and experience along with our proven development method makes your dream a reality.</p>
 

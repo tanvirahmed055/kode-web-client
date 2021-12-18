@@ -21,7 +21,7 @@ const Services = () => {
     }, [])
 
     return (
-        <div className="container-fluid mt-5 mb-5 pt-5" id="features">
+        <div className="container-fluid mt-5 mb-5 pt-5" id="services">
             <h3 className="fw-bolder pb-3 text-primary">Diverse Services</h3>
             <h5 className="text-center pb-5 text-secondary text-bold">We're dedicated to customers and focused on quality
             </h5>
